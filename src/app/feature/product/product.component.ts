@@ -9,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class ProductComponent {
 
+  title : string = "This product is the best product.";
 }
