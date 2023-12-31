@@ -5,6 +5,20 @@
   "projects": {
     "a17-i18n-ssr": {
       "projectType": "application",
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "de-CH":{
+            "translation": "src/i18n/message.de-CH.json"
+          },
+          "hi-IN":{
+            "translation": "src/i18n/message.hi-IN.json" 
+          },
+          "pt-PT":{
+            "translation": "src/i18n/message.pt-PT.json" 
+          }
+         }
+      },
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss"

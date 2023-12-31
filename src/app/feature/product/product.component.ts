@@ -9,5 +9,5 @@ import { Component } from '@angular/core';
 })
 export class ProductComponent {
 
-  title : string = "This product is the best product.";
+  title: string = $localize`:@@product.title:This product is the best product.`;
 }
