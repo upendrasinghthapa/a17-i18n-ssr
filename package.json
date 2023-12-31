@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:a17-i18n-ssr": "node dist/a17-i18n-ssr/server/server.mjs",
-    "localize" : "ng extract-i18n --format json --output-path src/i18n"
+    "localize": "ng extract-i18n --format json --output-path src/i18n"
   },
   "private": true,
   "dependencies": {
